@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="PollyGlot - Perfect Translation Every Time. A seamless AI-powered translation chat experience.">
+        
+        <title>PollyGlot - AI Translator</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+<body>
+    <header>
+        <div id="header-container">
+            <img src="assets/parrot.png" id="parrot-img" alt="Image of a parrot">
+            <div id="header-text">
+                <h1>PollyGlot</h1>
+                <h2>Perfect Translation Every Time</h2>
+            </div>
+        </div>
+    </header>
+        <section id="chat-container">
+            <div id="chat-box">
+                <p id="instruction-message" class="message bot-message">Welcome! Select a language and press send to translate.</p>
+            </div>
+            <div id="input-area">
+                <div id="input-wrapper">
+                    <input type="text" id="textToTranslate">
+                    <button id="sendButton"> <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="#65DA65"/></svg>
+                    </button>
+                </div>
+                <div id="language-selection">
+                    <img src="assets/jpn-flag.png" alt="Japanese" class="language-option" data-lang="japanese">
+                    <img src="assets/fr-flag.png" alt="French" class="language-option" data-lang="french">
+                    <img src="assets/sp-flag.png" alt="Spanish" class="language-option" data-lang="spanish">
+                </div>
+            </div>
+        </section>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
