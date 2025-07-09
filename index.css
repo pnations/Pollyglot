@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  max-width: 490px;
 }
 
  body {
@@ -12,7 +14,6 @@
   position: relative;
   min-height: 100vh;
   text-align: center;
-  max-width: 490px;
   background-color: whitesmoke;
   user-select: none;
   max-width: 96%;
