@@ -44,7 +44,7 @@ The app features a clean chat-style interface and language selection with flag i
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/pollyglot.git
+git clone https://github.com/pnations/pollyglot.git
 
 Navigate to the project directory:
 
