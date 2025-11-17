@@ -2,8 +2,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+  font-family: "Poppins", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
   max-width: 490px;
 }
 
@@ -40,7 +39,8 @@ h2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 2.5rem;}
+    padding: 2.5rem;
+}
 
 #header-text {
     display: flex;
@@ -81,8 +81,8 @@ h2 {
     border: 4px solid #252F42;
     border-radius: 15px;
     background-color: #fff;
-    margin-top: 1rem;
-    padding: 1rem;
+    margin-top: .5em;
+    padding: .5em;
 }
 
 #textToTranslate {
@@ -133,6 +133,7 @@ h2 {
     font-size: 1px;
     line-height: 1.4;
     word-wrap: break-word;
+    
 }
 
 .user-message {
@@ -141,7 +142,9 @@ h2 {
     color: #252F42;
     border-bottom-left-radius: 2px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
+    word-wrap: break-word;
+    max-width: 80%;
 }
 
 .bot-message {
@@ -150,12 +153,33 @@ h2 {
     color: white;
     border-top-right-radius: 1px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
+    word-wrap: break-word;
+    max-width: 80%;
 }
 
 #instruction-message {
-    max-width: 90%;;
+     align-self: flex-start;
+    background: #035A9D;
+    color: white;
+    border-top-right-radius: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    word-wrap: break-word;
+    max-width: 80%;;
 }
+
+#instruction-message::after {
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    width: 12px;
+    height: 20px;
+    background: transparent;
+    border-bottom-right-radius: 16px 14px;
+}
+
+
 
 .user-message::after {
     content: "";
