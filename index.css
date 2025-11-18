@@ -129,9 +129,9 @@ h2 {
 .message {
     max-width: 100%;
     padding: 10px 15px;
-    border-radius: 18px;
+    border-radius: 30px;
     font-size: 1px;
-    line-height: 1.4;
+    line-height: 1.4rem;
     word-wrap: break-word;
     
 }
@@ -168,18 +168,6 @@ h2 {
     word-wrap: break-word;
     max-width: 80%;;
 }
-
-#instruction-message::after {
-    position: absolute;
-    left: -10px;
-    bottom: 0;
-    width: 12px;
-    height: 20px;
-    background: transparent;
-    border-bottom-right-radius: 16px 14px;
-}
-
-
 
 .user-message::after {
     content: "";
