@@ -5,6 +5,10 @@
     font-family: "Poppins", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     max-width: 490px;
   }
+
+  html {
+  touch-action: manipulation;
+}
   
   body {
     color: #222;
