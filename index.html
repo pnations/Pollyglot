@@ -24,38 +24,39 @@
             </div>
         </div>
     </header>
-    <!-- Custom message popup window -->
-<div id="message-window" class="message-window hidden"></div>    
-    <section id="chat-container">
-            <div id="chat-box">
-                <p id="instruction-message" class="message bot-message">Welcome! Select a language and press send to translate.</p>
-            </div>
-            <div id="input-area">
-                <div id="input-wrapper">
-                    <input 
-                        type="text" 
-                        id="textToTranslate" 
-                        placeholder="Enter text"
-                        aria-label="Enter text to translate"
-                        aria-required="true"
-                        maxlength="500">
-                   
-                    <button 
-                        id="sendButton"
-                        aria-label="Send translation request"
-                        type="button">
-                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="#65DA65"/>
-                        </svg>
-                    </button>
+<main>
+    <div id="message-window" class="message-window hidden"></div>    
+        <section id="chat-container">
+                <div id="chat-box">
+                    <p id="instruction-message" class="message bot-message">Welcome! Select a language and press send to translate.</p>
                 </div>
-                <div id="language-selection" role="group" aria-label="Select target language">
-                    <img src="assets/jpn-flag.png" alt="Japanese" class="language-option" data-lang="japanese" role="button" tabindex="0">
-                    <img src="assets/fr-flag.png" alt="French" class="language-option" data-lang="french" role="button" tabindex="0">
-                    <img src="assets/sp-flag.png" alt="Spanish" class="language-option" data-lang="spanish" role="button" tabindex="0">
+                <div id="input-area">
+                    <div id="input-wrapper">
+                        <input 
+                            type="text" 
+                            id="textToTranslate" 
+                            placeholder="Enter text"
+                            aria-label="Enter text to translate"
+                            aria-required="true"
+                            maxlength="500">
+                    
+                        <button 
+                            id="sendButton"
+                            aria-label="Send translation request"
+                            type="button">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="#65DA65"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="language-selection" role="group" aria-label="Select target language">
+                        <img src="assets/jpn-flag.png" alt="Japanese" class="language-option" data-lang="japanese" role="button" tabindex="0">
+                        <img src="assets/fr-flag.png" alt="French" class="language-option" data-lang="french" role="button" tabindex="0">
+                        <img src="assets/sp-flag.png" alt="Spanish" class="language-option" data-lang="spanish" role="button" tabindex="0">
+                    </div>
                 </div>
-            </div>
         </section>
+    </main>
     <script src="index.js" type="module"></script>
 </body>
 </html>
